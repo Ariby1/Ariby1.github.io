@@ -15,7 +15,7 @@ $mail =  new PHPMailer\PHPMailer1\PHPMailer();
 	$mail->From    		= "blog@nugrohoprayogo.id"; //sender email
 	$mail->FromName 	= "Nugroho Prayogo";      //sender name
 	$mail->AddAddress("dhaniyanwar51@gmail.com", "Dhani Yanwar");//recipient: email and name
-	$mail->Subject  	=  "Percobaan";
+	$mail->Subject  	=  "${nama}";
 	$mail->Body     	=  "Coba-Coba";
 	
     $mail->AddAttachment("/cpanel.png","filesaya");
